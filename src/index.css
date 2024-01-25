@@ -71,6 +71,7 @@ code {
   transition: all 200ms;
 }
 
+.header .active,
 .header a:hover {
   color: rgb(214, 69, 93);
 }
