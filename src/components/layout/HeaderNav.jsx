@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 export const HeaderNav = () => {
     return (
-        <header>
+        <header className="header">
             <div className="logo">
                 <span>
                     V
@@ -26,7 +26,7 @@ export const HeaderNav = () => {
                         <NavLink to="servicios">Servicios </NavLink>
                     </li>
                     <li>
-                        <NavLink to="contacto">Contracto </NavLink>
+                        <NavLink to="contacto">Contacto </NavLink>
                     </li>
                 </ul>
             </nav>
