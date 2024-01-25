@@ -22,11 +22,27 @@ code {
   height: 132px;
   justify-content: center;
   align-items: center;
+  border-bottom: 3px solid black;
+  margin-bottom: 35px;
 
 }
 
 .header .logo {
   flex-grow: 2;
+  display:flex;
+}
+
+.header .logo span{
+  display: block;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.header .logo h3 {
+  display: block;
+  flex-basis: 40px;
+  margin-left: 10px;
+  font-weight: 700px;
 }
 
 .header nav {
