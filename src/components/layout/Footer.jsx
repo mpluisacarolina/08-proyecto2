@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
         Portafolio Luisa C. Marín Pietri &copy; - 2024
     </footer>
   )
