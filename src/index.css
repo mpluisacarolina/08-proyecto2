@@ -110,7 +110,7 @@ code {
   font-weight: lighter;
 }
 
-.home a{
+.home .title a{
   padding: 5px;
   border-radius:50px;
   color: white;
@@ -119,7 +119,7 @@ code {
   transition: all 300ms;
 }
 
-.home a:hover,
+.home .title a:hover,
 input[type="submit"]:hover,
 button:hover{
   background-color: red;
