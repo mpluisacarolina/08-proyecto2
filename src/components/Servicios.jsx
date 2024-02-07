@@ -20,9 +20,6 @@ export const Servicios = () => {
           <h2>Posicionamiento</h2>
           <p>Hago que tu web aparezca en Google y la vea más gente</p>
         </article>
-
-
-
       </section>
     </div>
   )
